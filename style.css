@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('https://cdn.muhiku.com/wp-content/uploads/2023/02/f0ecfabe0805a6cae913fc828d2f63e7-all_all_big.jpg');
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image-opacity: 0.5;
+    opacity: 2; /* Opaklık değeri */
+}
+
+
+header {
+    background-color: #FF7F50; /* Koyu turuncu tonu */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Header'ı göreceli bir konuma getiriyoruz */
+}
+
+header img {
+    width: 150px; /* Logo boyutunu ayarlayın */
+    height: auto; /* Otomatik yükseklik ayarı */
+    position: absolute; /* Logo'yu mutlak bir konuma getiriyoruz */
+    top: 20px; /* Header'ın üst kenarına 20 piksel uzaklıkta */
+    left: 20px; /* Header'ın sol kenarına 20 piksel uzaklıkta */
+}
+
+header h1 {
+    margin-top: 70px; /* Başlığı yukarı kaydırarak logo ile arasında boşluk bırakıyoruz */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
